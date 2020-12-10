@@ -47,6 +47,7 @@ export default class App {
             }
             i++;
         }while(i <= fin);
+        return str;
     }
 }
 
@@ -77,3 +78,10 @@ console.log(`¿El número ${31} es primo? ${app.esPrimo(31)}`);
 console.log(`¿El número ${57} es primo? ${app.esPrimo(57)}`);
 console.log(`¿El número ${4567} es primo? ${app.esPrimo(4567)}`);
 console.log(`¿El número ${1000000009} es primo? ${app.esPrimo(1000000009)}`);
+
+//Probando método obtenerMultiplos(inicio, fin)
+console.log(`Probando método obtenerMultiplos(inicio, fin):`);
+console.log(`Los múltiplos de 3 en el intervalo [${a},${b}] son ${app.obtenerMultiplos(a, b)}`);
+console.log(`Los múltiplos de 3 en el intervalo [${b},${b}] son ${app.obtenerMultiplos(b, b)}`);
+console.log(`Los múltiplos de 3 en el intervalo [${b},${c}] son ${app.obtenerMultiplos(b, c)}`);
+console.log(`Los múltiplos de 3 en el intervalo [${a},${c}] son ${app.obtenerMultiplos(a, c)}`);
