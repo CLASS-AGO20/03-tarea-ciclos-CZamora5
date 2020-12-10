@@ -18,6 +18,20 @@ export default class App {
         }
         return sum;
     }
+
+    esPrimo(numero){
+        if(numero == 1){
+            return false;
+        }
+        let i = 2;
+        do{
+            if(numero % i == 0 ){
+                return false;
+            }
+            i++;
+        }while(i*i <= numero);
+        return true;
+    }
 }
 
 let app = new App();
