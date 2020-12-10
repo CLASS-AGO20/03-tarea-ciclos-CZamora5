@@ -7,6 +7,17 @@ export default class App {
         }
         return sum;
     }
+
+    sumatoriaSerieDos(numero){
+        let sum = numero >= 1 ? 1 : 0;
+        let cnt = 1;
+        while(cnt <= numero){
+            let r = cnt % 2;
+            sum = r == 0 ? sum + 1/cnt : sum - 1/cnt;
+            cnt++;
+        }
+        return sum;
+    }
 }
 
 let app = new App();
