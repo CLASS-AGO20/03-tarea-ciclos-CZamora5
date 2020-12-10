@@ -32,6 +32,22 @@ export default class App {
         }while(i*i <= numero);
         return true;
     }
+
+    obtenerMultiplos(inicio, fin){
+        let str = "";
+        if(inicio > fin){
+            inicio += fin;
+            fin = inicio - fin;
+            inicio -= fin;
+        }
+        let i = inicio;
+        do{
+            if(i % 3 == 0){
+                str += i;
+            }
+            i++;
+        }while(i <= fin);
+    }
 }
 
 let app = new App();
