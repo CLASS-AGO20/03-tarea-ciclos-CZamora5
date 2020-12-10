@@ -99,3 +99,16 @@ console.log(`Los múltiplos de 3 en el intervalo [${a},${b}] son ${app.obtenerMu
 console.log(`Los múltiplos de 3 en el intervalo [${b},${b}] son ${app.obtenerMultiplos(b, b)}`);
 console.log(`Los múltiplos de 3 en el intervalo [${b},${c}] son ${app.obtenerMultiplos(b, c)}`);
 console.log(`Los múltiplos de 3 en el intervalo [${a},${c}] son ${app.obtenerMultiplos(a, c)}`);
+
+//Probando método obtenerImpares(numero1, numero2)
+console.log(`Probando método obtenerImpares(numero1, numero2):`);
+console.log(`Los impares en el intervalo [${34},${27}] son ${app.obtenerImpares(34, 27)}`);
+console.log(`Los impares en el intervalo [${56},${55}] son ${app.obtenerImpares(56, 55)}`);
+console.log(`Los impares en el intervalo [${55},${55}] son ${app.obtenerImpares(55, 55)}`);
+console.log(`Los impares en el intervalo [${56},${56}] son ${app.obtenerImpares(56, 56)}`);
+console.log(`Los impares en el intervalo [${b},${b}] son ${app.obtenerImpares(b, b)}`);
+console.log(`Los impares en el intervalo [${b},${b}] son ${app.obtenerImpares(b, b)}`);
+console.log(`Los impares en el intervalo [${a},${b}] son ${app.obtenerImpares(a, b)}`);
+console.log(`Los impares en el intervalo [${b},${b}] son ${app.obtenerImpares(b, b)}`);
+console.log(`Los impares en el intervalo [${b},${c}] son ${app.obtenerImpares(b, c)}`);
+console.log(`Los impares en el intervalo [${a},${c}] son ${app.obtenerImpares(a, c)}`);
