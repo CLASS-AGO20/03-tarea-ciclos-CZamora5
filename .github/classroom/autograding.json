@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Sumatoria serie uno",
+      "setup": "npm install",
+      "run": "npm run test sumatoriaSerieUno.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Sumatoria serie dos",
+      "setup": "",
+      "run": "npm run test sumatoriaSerieDos.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Es primo",
+      "setup": "",
+      "run": "npm run test esPrimo.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Obtener multiplos",
+      "setup": "",
+      "run": "npm run test obtenerMultiplos.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Obtener impares",
+      "setup": "",
+      "run": "npm run test obtenerImpares.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
