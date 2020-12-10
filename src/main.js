@@ -49,6 +49,20 @@ export default class App {
         }while(i <= fin);
         return str;
     }
+
+    obtenerImpares(numero1, numero2){
+        let str = "";
+        if(numero1 > numero2){
+            numero1 += numero2;
+            numero2 = numero1 - numero2;
+            numero1 -= numero2;
+        }
+        numero2 = numero2%2 == 0 ? numero2-1 : numero2;
+        for(let i = numero2; i >= numero1; i -= 2){
+            str += i;
+        }
+        return str;
+    }
 }
 
 let app = new App();
