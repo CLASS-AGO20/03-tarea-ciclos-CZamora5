@@ -53,3 +53,11 @@ console.log(`Probando método sumatoriaSerieDos(numero):`);
 console.log(`La suma de los primeros ${a} términos de la serie dos es ${app.sumatoriaSerieDos(a)}`);
 console.log(`La suma de los primeros ${b} términos de la serie dos es ${app.sumatoriaSerieDos(b)}`);
 console.log(`La suma de los primeros ${c} términos de la serie dos es ${app.sumatoriaSerieDos(c)}`);
+
+//Probando método esPrimo(numero)
+console.log(`Probando método esPrimo(numero):`);
+console.log(`¿El número ${3} es primo? ${app.esPrimo(3)}`);
+console.log(`¿El número ${31} es primo? ${app.esPrimo(31)}`);
+console.log(`¿El número ${57} es primo? ${app.esPrimo(57)}`);
+console.log(`¿El número ${4567} es primo? ${app.esPrimo(4567)}`);
+console.log(`¿El número ${1000000009} es primo? ${app.esPrimo(1000000009)}`);
