@@ -59,6 +59,9 @@ export default class App {
         }
         numero2 = numero2%2 == 0 ? numero2-1 : numero2;
         for(let i = numero2; i >= numero1; i -= 2){
+            if(i != numero2){
+                str += ",";
+            }
             str += i;
         }
         return str;
